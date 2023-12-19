@@ -1,15 +1,22 @@
 import React from 'react';
 import { useEffect } from 'react';
+import './App.css';
 
 const Home = () => {
+  return(
+    <>
+    
+    <div className='uuu'>
+        <h2>HELLO</h2>
+        <p>
+         Lorem Ipsum...
+        </p>
 
-  // useEffect(() => {
-
-  //   window.scroll(0,0)
-
-  // }, [])
-
-  return <h1>Home Page</h1>
+        <p>Random text Random text Random text Random text Random text Random text Random text Random text Random text Random text</p>
+      </div>
+    
+    </>
+  )
 };
 
 export default Home;
