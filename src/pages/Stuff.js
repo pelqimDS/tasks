@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 
-const About = () => {
+const Stuff = () => {
   return (
     <>
       <div className='uuu'>
@@ -23,4 +23,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Stuff;

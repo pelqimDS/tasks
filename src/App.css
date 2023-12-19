@@ -63,7 +63,7 @@ ul.header li a {
   padding: 20px;
   display: inline-block;
 }
-a{
+.aLink{
   text-decoration: none;
   color: inherit;
 }

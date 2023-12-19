@@ -1,18 +1,19 @@
 import React from 'react';
 import './App.css';
 
-const Profile = () => {
+
+const Contact = () => {
   return (
     <>
  <div className='uuu'>
-        <h2>Profile</h2>
+        <h2>Contact</h2>
         <p>
          Some text
         </p>
 
-        <p>Register here please! <span class='p22'>Here!</span>.</p>
+        <p>Register here please! <a href="youtube.com">link</a>.</p>
       </div>    </>
   );
 };
 
-export default Profile;
+export default Contact;

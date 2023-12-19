@@ -16,18 +16,18 @@ const Header = () => {
 
       <ul className="nav">
         <li className={activeLink === '/' ? 'active' : ''}>
-          <Link to="/" onClick={() => handleSetActiveLink('/')}>
+          <Link to="/"  className='aLink' onClick={() => handleSetActiveLink('/')}>
             Home
           </Link>
         </li>
-        <li className={activeLink === '/about' ? 'active' : ''}>
-          <Link to="/about" onClick={() => handleSetActiveLink('/about')}>
-            About
+        <li className={activeLink === '/stuff' ? 'active' : ''}>
+          <Link to="/stuff" className='aLink' onClick={() => handleSetActiveLink('/stuff')}>
+            Stuff
           </Link>
         </li>
-        <li className={activeLink === '/profile' ? 'active' : ''}>
-          <Link to="/profile" onClick={() => handleSetActiveLink('/profile')}>
-            Profile
+        <li className={activeLink === '/contact' ? 'active' : ''}>
+          <Link to="/contact"  className='aLink' onClick={() => handleSetActiveLink('/contact')}>
+            Contact
           </Link>
         </li>
       </ul>
